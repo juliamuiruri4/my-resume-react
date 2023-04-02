@@ -16,6 +16,7 @@ const Header = () => {
           }}
         >
             <a href="#home">Home</a>
+            <a href="#bi-report">Power plat</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
         </div>

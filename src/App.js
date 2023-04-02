@@ -1,8 +1,9 @@
-import '../App.css';
-import Header from '../components/Header';
-import Resume from '../pages/Resumepage/MyResume';
-import Home from '../pages/Homepage/Home';
-import Footer from '../components/Footer';
+import './App.css';
+import Header from './components/Header';
+import Resume from './pages/Resumepage/MyResume';
+import Home from './pages/Homepage/Home';
+import Footer from './components/Footer';
+import BiReport from './pages/PowerPlatform/PowerPlat';
 
 const siteProps = {
   email: "Julia@example.com",
@@ -23,6 +24,7 @@ function App() {
       <Header />
       <Home />
       <Resume />
+      <BiReport />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
