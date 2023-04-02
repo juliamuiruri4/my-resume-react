@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  text-align: center;
+}
+
+main { 
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 2em;
+}
+
+section {
+  margin: auto 1em 3em 2em;
+}
+
+i {
+  margin-right: .5em;
+}
+
+p {
+  margin: .2em auto
+}
+
+#mainLeft {
+  border-right: 1px solid lightblue;
+  text-align: left;
+}
+
+#mainRight {
+  border-right: 1px solid lightgray;
+  text-align: left;
+}
+
+img.socialIcon {
+  width: 30px;
+  height: 30px;
+}
