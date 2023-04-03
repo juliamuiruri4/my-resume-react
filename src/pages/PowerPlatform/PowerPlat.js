@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
 
 import { PowerBIEmbed } from 'powerbi-client-react';
 import { models } from 'powerbi-client';
